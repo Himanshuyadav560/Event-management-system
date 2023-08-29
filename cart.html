@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(163, 157, 157);
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0);
+    }
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .cart-item img {
+      max-width: 100px;
+      max-height: 100px;
+      margin-right: 10px;
+    }
+    .cart-actions button {
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .cart-row{
+        display: flex;
+    }
+    .cart-row h3{
+         margin-right: 3rem;
+         margin-left: 1rem;
+    }
+    .container h1{
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+    .cart-summary{
+        text-align: center;
+    }
+    .cart-summary button{
+        width: 10rem;
+        height: 2rem;
+        background-color: rgb(116, 206, 116);
+        font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Your Cart</h1>
+    <div class="cart">
+        <div class="cart-row">
+            <h3>Product</h3>
+            <h3>Product Name</h3>
+            <h3>Price</h3>
+            <h3>Quantity</h3>
+        </div>
+      <div class="cart-item">
+        <img src="product1.jpg" alt="Product 1">
+        <span>Product 1</span>
+        <span>$20.00</span>
+        <input type="number"></input>
+        <div class="cart-actions">
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="cart-item">
+        <img src="product2.jpg" alt="Product 2">
+        <span>Product 2</span>
+        <span>$15.00</span>
+        <input type="number"></input>
+        <div class="cart-actions">
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="cart-item">
+        <img src="product3.jpg" alt="Product 3">
+        <span>Product 3</span>
+        <span>$30.00</span>
+        <input type="number"></input>
+        <div class="cart-actions">
+          <button>Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="cart-summary">
+      <h2>Cart Summary</h2>
+      <p>Total: $35.00</p>
+      <button><a href="checkout.html" style="text-decoration: none;color:black">Checkout</a></button>
+    </div>
+  </div>
+</body>
+</html>

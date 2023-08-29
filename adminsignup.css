@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.First{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 97.5%;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.box2{
+    background-color: wheat;
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box2{
+    margin-top: 1rem;
+}
+.A1 label{
+    font-size: 1.3rem;
+    color: rgb(56, 55, 55);
+    margin-right: 5rem;
+}
+.A1 input{
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 25rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.remember-box2{
+    color: rgb(56, 55, 55);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 10rem;
+}
+.remember-box2 a{
+    text-decoration: none;
+    padding-left: 9rem ;
+    text-align:end;
+}
+.btn-box2{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.btn-box2 button{
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 26.5rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.login-box2{
+    display: flex;
+    justify-content: space-between;
+}
+.adminlog{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.userlog{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.adminlog a{
+    text-decoration: none;
+    color: black;
+}
+.userlog a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 25rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.signup-box2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+.signup-box2 p{
+    color: rgb(138, 136, 136);
+    font-weight: 500;
+}
+.signup-box2 a{
+    text-decoration: none;
+    padding-left: 5px;
+}
